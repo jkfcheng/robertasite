@@ -5,8 +5,8 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-// @include foundation-grid;
-@include foundation-flex-grid;
+@include foundation-grid;
+// @include foundation-flex-grid;
 //
 // @include foundation-xy-grid-classes;
 @include foundation-typography;
@@ -52,5 +52,6 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-
+@import 'typography';
+@import 'components/buttons';
 @import 'components/top-menu';

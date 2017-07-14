@@ -1,0 +1,18 @@
+.primary-cta {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  border-radius: 2px;
+  color: $black;
+  font-family: 'Average', serif;
+  font-style: italic;
+
+  &:hover {
+    color: $dark-gray;
+    border-color: $dark-gray;
+  }
+
+  &:active {
+    background-color: $black;
+  }
+}

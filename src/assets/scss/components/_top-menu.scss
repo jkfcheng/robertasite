@@ -1,3 +1,31 @@
+.top-bar {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: $white;
+
+  ul a {
+    color: $black;
+    font-family: 'Average', serif;
+    &:hover {
+      color: #999;
+    }
+  }
+
+  ul {
+    background-color: $white;
+  }
+}
+
 .menu-button {
 	margin-bottom: 0px;
+}
+
+.menu-logo {
+	font-family: 'Average', serif;
+	font-style: italic;
+	font-size: 1.2rem;
+  color: black;
+  &:hover {
+    color: $black;
+  }
 }
