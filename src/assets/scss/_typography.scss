@@ -2,6 +2,7 @@ h2 {
   text-transform: uppercase;
   margin-top: 6rem;
   letter-spacing: 0.5rem;
+  line-height: 2rem;
 }
 
 .no-margin {
@@ -13,10 +14,15 @@ h2 {
 }
 
 .blurb {
+  @include breakpoint(medium) {
+    font-size: 1.1rem;  
+  }
+
   &.no-bottom {
     margin-bottom: 2rem;
   }
-  font-size: 1.1rem;
+
+  font-size: 0.9rem;
   margin-bottom: 6rem;
   line-height: 2.5rem;
 }
