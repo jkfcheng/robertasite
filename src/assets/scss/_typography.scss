@@ -1,6 +1,11 @@
 h2 {
   text-transform: uppercase;
   margin-top: 6rem;
+  letter-spacing: 0.5rem;
+}
+
+.no-margin {
+  margin-top: 0rem;
 }
 
 .header-with-sub {
@@ -8,12 +13,23 @@ h2 {
 }
 
 .blurb {
+  &.no-bottom {
+    margin-bottom: 2rem;
+  }
+
   margin-bottom: 6rem;
+  line-height: 2.5rem;
 }
 
 .photos {
+  &.inline {
+    margin-bottom: 2rem;
+  }
+
   margin-bottom: 6rem;
 }
+
+
 
 .inline-photo {
   margin-top: 6rem;
