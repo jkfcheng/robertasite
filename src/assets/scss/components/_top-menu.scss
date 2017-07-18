@@ -3,6 +3,10 @@
 	padding-bottom: 2rem;
 	background-color: $white;
 
+  ul {
+    background-color: $white;
+  }
+
   ul a {
     color: $black;
     font-family: 'Average', serif;
@@ -11,8 +15,8 @@
     }
   }
 
-  ul {
-    background-color: $white;
+  ul a.active {
+    color: #999;
   }
 }
 
