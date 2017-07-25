@@ -15,12 +15,12 @@ h2 {
 }
 
 .blurb {
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
     font-size: 1.1rem;  
   }
   
-  @include breakpoint (640px) {
-    font-size: calc(1vw + 3px);
+  @include breakpoint (medium only) {
+    font-size: calc(1vw + 4px);
   }
 
   &.no-bottom {
