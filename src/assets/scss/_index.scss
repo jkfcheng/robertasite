@@ -7,14 +7,32 @@
 	background-repeat: no-repeat;
 }
 
-
 .landing-card {
-	background: white;
-	margin-top: 6rem;
-	box-shadow: 0px 0px 50px lighten($black, 80%);
+	@include breakpoint(medium) {
+		margin-top: 6rem;
+		margin: 6rem 0;
+	}
 
+	margin: 0 2rem 6rem;
+	background: white;
+	box-shadow: 0px 0px 50px lighten($black, 80%);
 }
 
 .landing-card-blurb {
 	padding: 2rem;
+}
+
+.landing-card-img {
+	background-image: url("../img/profile.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.landing-card-img-filler {
+	@include breakpoint(medium) {
+		display: none;
+	}
+
+	height: 400px;
+	
 }

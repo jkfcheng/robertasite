@@ -27,6 +27,10 @@ h2 {
     margin-bottom: 2rem;
   }
 
+  &.no-margin-bottom {
+    margin-bottom: 0;
+  }
+
   font-size: 0.9rem;
   margin-bottom: 6rem;
   line-height: 2.5rem;
