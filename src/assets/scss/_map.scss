@@ -1,4 +1,9 @@
 #map {
-  height: 400px;
+  @include breakpoint(medium) {
+    margin-top: 6rem;
+  }
+
+  height: 250px;
   width: 100%;
+  margin-bottom: 6rem;
 }
